@@ -1,0 +1,54 @@
+{
+    "name": "SkullScaling",
+    "maps": [
+        {
+            "name": "Scaling",
+            "id": "adcf1004-c8d0-4e6f-8b6a-9a4c4d0e9a83",
+            "actions": [
+                {
+                    "name": "ScaleUp",
+                    "type": "Button",
+                    "id": "7d17de74-59d9-4767-b3a9-7537e1d05a4f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ScaleDown",
+                    "type": "Button",
+                    "id": "f5e15e69-daec-4788-842b-08593664bbff",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "45fe612f-7b7e-4a3d-961f-53866716f772",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ScaleUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9f540873-5d20-402f-98cf-e7f73e9bebe2",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ScaleDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
